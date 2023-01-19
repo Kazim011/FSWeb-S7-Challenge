@@ -1,0 +1,117 @@
+.section-img {
+  width: 100%;
+}
+
+.section-img img {
+  width: 100%;
+  height: 50vh;
+}
+
+.pizza-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 3rem 0;
+}
+
+.pizza-sec {
+  width: 35%;
+  text-align: center;
+}
+
+.select-pizzaTur {
+  background-color: rgb(183, 186, 187);
+  padding: 10px;
+}
+
+select {
+  width: 100%;
+}
+
+.pizza-kenar {
+  background-color: rgb(183, 186, 187);
+  height: 17vh;
+  padding: 10px;
+}
+
+.pizza-boyut {
+  background-color: rgb(183, 186, 187);
+  height: 17vh;
+  padding: 10px;
+}
+
+.pizza-section2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.ekmalzemeler {
+  padding: 10px;
+
+  color: rgb(83, 64, 29);
+}
+
+.div-ekmalzeme {
+  width: 35%;
+  background-color: rgba(183, 187, 185, 0.931);
+  text-align: center;
+}
+
+.not-content {
+  background-color: rgb(183, 186, 187);
+  padding: 10px;
+  margin: auto 0;
+}
+
+.not-content input {
+  padding: 10px;
+  width: 100%;
+  height: 15vh;
+}
+
+.pizza-section3 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 3rem 0;
+}
+
+.iletisim-section {
+  background-color: rgba(183, 187, 185, 0.931);
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  width: 35%;
+}
+
+.siparis-button {
+  background-color: rgba(183, 187, 185, 0.931);
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  justify-content: center;
+  text-align: center;
+}
+
+.button {
+  margin: 1rem;
+}
+
+.errors {
+  border: 1px solid black;
+  color: red;
+}
+
+.siparis-ozet {
+  background-color: rgba(183, 187, 185, 0.931);
+  margin: 0 auto;
+  text-align: center;
+  width: 50%;
+}
+
+.siparis-ozet h2 {
+  font-weight: bold;
+}
+.siparis-ozet p {
+  color: black;
+  font-weight: bold;
+}

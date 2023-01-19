@@ -1,0 +1,8 @@
+.card-div {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 1rem;
+  /* max-height: 20vh; */
+  margin: 1rem 0;
+}

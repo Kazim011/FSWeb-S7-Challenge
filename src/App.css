@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+header nav {
+  display: flex;
+  justify-content: center;
+  column-gap: 3rem;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.766);
+  padding: 1rem;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+a img {
+  height: 100px;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: center;
+  column-gap: 3rem;
+  text-decoration: none;
+  padding: 1rem;
+  align-content: center;
+  margin: auto 0;
+  font-weight: bold;
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+a:hover {
+  color: orange;
+}
